@@ -1,0 +1,11 @@
+.well {
+  color: goldenrod;
+  border-color: black;
+  border-width: medium;
+}
+img {
+  height: 250px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+
+}
