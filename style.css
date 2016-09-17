@@ -7,5 +7,12 @@ img {
   height: 250px;
   margin-top: 10%;
   margin-bottom: 10%;
-
+}
+.row {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.well {
+  border-width: medium;
+  border-color: black;
 }
