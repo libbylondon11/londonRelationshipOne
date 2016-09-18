@@ -5,14 +5,32 @@
 }
 img {
   height: 250px;
-  margin-top: 10%;
-  margin-bottom: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
-.row {
+/*.row {
   margin-left: 10%;
   margin-right: 10%;
 }
 .well {
   border-width: medium;
   border-color: black;
+}*/
+.container-fluid {
+  margin-left: 5%;
+  padding-left: 5%;
+  margin-right: 5%;
+
+}
+.boxed {
+  border: 2px solid darkblue ;
+  height: 450px;
+  width: 450px;
+  margin-bottom: 5%;
+}
+.bottom .boxed {
+  border: 2px solid goldenrod ;
+  height: 300px;
+  width: 400px;
+  display: center;
 }
