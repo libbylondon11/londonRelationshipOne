@@ -1,36 +1,64 @@
-.well {
-  color: goldenrod;
-  border-color: black;
-  border-width: medium;
+.top img {
+  float: left;
+  margin-top: 2%;
+  margin-left: 2%;
+  height: 100px;
 }
 img {
-  height: 250px;
+  height: 280px;
   margin-top: 5%;
   margin-bottom: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
-/*.row {
-  margin-left: 10%;
-  margin-right: 10%;
-}
-.well {
-  border-width: medium;
-  border-color: black;
-}*/
+
 .container-fluid {
-  margin-left: 5%;
-  padding-left: 5%;
-  margin-right: 5%;
+position: relative;
 
 }
-.boxed {
+.first {
   border: 2px solid darkblue ;
   height: 450px;
-  width: 450px;
-  margin-bottom: 5%;
+  margin-left: 15%;
+  color: darkblue;
+  text-align: left;
+}
+.second {
+  border: 2px solid darkblue ;
+  height: 450px;
+  text-align: center;
+  font-size: 16px;
+  /*padding-left: 15%;
+  padding-right: 15%;*/
+  font-family: 'Ariel', sans-serif;
+  color: darkblue;
+}
+.btn-default {
+  font-size: 16px;
+  background-color: blue;
+  color: white;
+}
+.btn-default:hover {
+  font-size: 16px;
+  background-color: darkblue;
+  color: white;
 }
 .bottom .boxed {
   border: 2px solid goldenrod ;
-  height: 300px;
-  width: 400px;
-  display: center;
+  height: 350px;
+  width: 50%;
+  display: left;
+  margin-top: 5%;
+}
+#content {
+  font-size: 16px;
+  color: goldenrod;
+  text-align: center;
+}
+h2 {
+  text-decoration: underline;
+}
+input {
+  /*display:inline-grid;*/
+  font-size: 12px;
 }
