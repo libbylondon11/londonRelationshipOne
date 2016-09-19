@@ -13,13 +13,13 @@ img {
 }
 
 .container-fluid {
-position: relative;
-
+  position: relative;
 }
+
 .first {
   border: 2px solid darkblue ;
   height: 450px;
-  margin-left: 15%;
+  margin-left: 12%;
   color: darkblue;
   text-align: left;
 }
@@ -37,6 +37,9 @@ position: relative;
   font-size: 16px;
   background-color: blue;
   color: white;
+  position: absolute;
+  width: 85px;
+  height: 40px;
 }
 .btn-default:hover {
   font-size: 16px;
@@ -53,12 +56,30 @@ position: relative;
 #content {
   font-size: 16px;
   color: goldenrod;
-  text-align: center;
+  display: left;
 }
 h2 {
   text-decoration: underline;
 }
 input {
-  /*display:inline-grid;*/
   font-size: 12px;
+  width: 50%;
+  clear: both;
+}
+#removeButton {
+  size: 12px;
+  float: right;
+  display: right;
+  margin-right: 5%;
+  margin-top: 40%;
+  position: absolute;
+  TOP:800px;
+  LEFT: 950px;
+}
+label {
+  display:inline-block;
+  width:90px;
+}
+#state {
+    width:300px;
 }

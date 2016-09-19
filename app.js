@@ -1,3 +1,4 @@
+
 $(document).ready(function() {
 
 $('#submit').click(function() {
@@ -10,7 +11,10 @@ $('#submit').click(function() {
   var state = $("#state").val();
   var additional = $("#additional").val();
 
+	$("#content ul").append('<li> First Name: ' + firstName + ' </li>' + ' <li> Last Name: ' + lastName + ' </li>' + ' <li> Email Address: ' + emailAddress + ' </li>' + '<li> Company: ' + company + '</li>' + ' <li> Title: ' + title + '</li>' +'<li> Country: ' + country + '</li>' + '<li> State: ' + state + '</li>' + '<li> Additional Comments? ' +  additional + ' </li>');
+  });
 
-	$("#content ul").append('<li> First Name  ' + firstName  + ' Last Name ' + lastName + ' Email Address ' + emailAddress + ' Company ' + company + ' Title ' + title + ', Country ' + country + '  State ' + state + ' Additional Comments? ' + additional + ' </li');
-});
+  $("#removeButton").on("click", function(){
+    $("#content").hide();
+  })
 })
